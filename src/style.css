@@ -25,6 +25,7 @@ a:hover {
 
 #SignIn a:hover {
   text-decoration: none;
+  box-shadow: 0 1px 0 rgba(0,0,0,.15);
   opacity: 1;
 }
 
@@ -41,8 +42,16 @@ a:hover {
   height: 30px;
 }
 
+#SignIn li {
+  opacity: 1;
+}
+
 #GoogleApps {
   opacity: 0.55;
+  width: 20px;
+  height: 20px;
+  line-height: normal;
+  vertical-align: middle;
 }
 
 #GoogleApps a:hover {
