@@ -12,16 +12,16 @@
     <header>
       <nav class="leftnav">
         <ul>
-          <li>About</li>
-          <li>Store</li>
+          <li><a href="#">About</a></li>
+          <li style="padding-left: 15px;"><a href="#">Store</a></li>
         </ul>
       </nav>
       <nav class="rightnav">
         <ul>
-          <li>Gmail</li>
-          <li>Images</li>
-          <li><img src="src/GoogleApps.jpg" alt="Google Apps" width="30px" height="30px"><li>
-          <li id="SignIn">Sign In</li>
+          <li><a href="#">Gmail</a></li>
+          <li><a href="#">Images</a></li>
+          <li id="GoogleApps"><a href="#"><img src="src/GoogleApps.jpg" alt="Google Apps" width="30px" height="30px"></a><li>
+          <li id="SignIn"><a href="#">Sign In</a></li>
         </ul>
       </nav>
     </header>
@@ -29,13 +29,13 @@
     <main>
       <section>
         <center>
-          <img src="src/GoogleLogo.png" alt="Google Logo" width="272" height="92">
+          <img id="google" src="src/GoogleLogo.png" alt="Google Logo" width="272" height="92">
           <div>
             <input id="searchform" type="text">
           </div>
-          <div>
-            <input type="button">
-            <input type="button">
+          <div class="buttons">
+            <input id="gs" type="button" value="Google Search">
+            <input id="ifl" type="button" value="I'm Feeling Lucky">
           </div>
         </center>
       </section>
@@ -44,13 +44,13 @@
     <footer>
       <nav class="footernav">
         <ul class="leftnav">
-          <li>Advertising</li>
-          <li>Business</li>
+          <li><a href="#">Advertising</a></li>
+          <li><a href="#">Business</a></li>
         </ul>
         <ul class="rightnav">
-          <li>Privacy</li>
-          <li>Terms</li>
-          <li>Settings</li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Settings</a></li>
         </ul>
       </nav>
     </footer>

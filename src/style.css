@@ -9,8 +9,75 @@ body {
   color: #222;
 }
 
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.footernav a {
+  color: #666;
+}
+
+a:hover {
+  text-decoration: underline;
+  opacity: 0.85;
+}
+
+#SignIn a:hover {
+  text-decoration: none;
+  opacity: 1;
+}
+
+#SignIn a {
+  opacity: 1;
+  font-weight: bold;
+  background-color: #4387fd;
+  border-width: 1px;
+  border-color: #4285f4;
+  color: #fff;
+  line-height: 28px;
+  border-radius: 2px;
+  width: 75px;
+  height: 30px;
+}
+
+#GoogleApps {
+  opacity: 0.55;
+}
+
+#GoogleApps a:hover {
+  opacity: 1;
+}
+
 header {
   width: 100%;
+  height: 30px;
+  padding-left: -20px;
+  margin-top: 10px;
+  margin-left: -20px;
+}
+
+footer {
+  width: 100%;
+  height: 30px;
+  padding-left: -20px;
+  margin-left: -20px;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  bottom: 0;
+  position: absolute;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  display: inline-block;
+}
+
+main {
+  margin-top: 100px;
 }
 
 ul {
@@ -22,30 +89,55 @@ header nav ul {
 }
 
 nav ul li {
-  display: inline;
+  display: inline-block;
 }
 
-#SignIn {
-  font-weight: bold;
-  background-color: #4387fd;
-  border-width: 1px;
-  border-color: #4285f4;
-  color: #fff;
-  line-height: 28px;
-  border-radius: 2px;
-  width: 75px;
-  height: 30px;
-  text-align: center;
-  opacity: 1;
+.buttons {
+  width: 484px;
+  height: 58px;
+  padding-top: 18px;
 }
 
 #searchform {
-  min-width: 650px;
+  width: 484px;
+  height: 44px;
+  background-color: #fff;
+  display: flex;
+  border-radius: 2px;
+  border: none;
+  margin: 0 auto;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+#searchform:hover {
+  box-shadow:0 3px 8px 0 rgba(0,0,0,0.2) ,0 0 0 1px rgba(0,0,0,0.08);
+}
+
+#google {
+  padding-bottom: 10px;
+}
+
+#gs, #ifl {
+  margin: 11px 4px;
+  padding: 0 16px;
+  height: 34px;
+  border: 1px solid #f2f2f2;
+  background-color: #f2f2f2;
+  color: #757575;
+  font-size: 13px;
+  border-radius: 2px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .leftnav, .rightnav {
-  opacity: 0.75;
+  opacity: 0.85;
+}
 
-{
-  position: bottom;
+.leftnav {
+  float: left;
+}
+
+.rightnav {
+  float: right;
 }
