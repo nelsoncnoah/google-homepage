@@ -15,3 +15,5 @@ HTML Code: https://github.com/Alonsoserolf/google-homepage/blob/master/index.htm
 CSS Code: https://github.com/Alonsoserolf/google-homepage/blob/master/css/main.css
 
 I definitely am eager to learn more, apply CSS more cleanly, and move forward from here!
+
+From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
